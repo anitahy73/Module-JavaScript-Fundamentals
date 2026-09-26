@@ -25,7 +25,7 @@ console.log(result);
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?This removes the seconds that don't make up a complete minute.
 //Then it divides that number by 60 to convert the seconds into whole minutes.
-//we have 8784 seconds so 
+//we have 8784 seconds so
 
 //8784 - 24 = 8760
 //8760 / 60 = 146 it is the total minutes
@@ -33,7 +33,4 @@ console.log(result);
 // e) What do you think the variable result represents? Can you think of a better name for this variable?creates a formatted representation of the movie's length in hours, minutes, and seconds.
 //I can name it the movie duration
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
-	//Works properly for non-negative whole-number seconds; decimals/negative values cause formatting problems
-
-
-
+//Works properly for non-negative whole-number seconds; decimals/negative values cause formatting problems

@@ -2,13 +2,13 @@ const penceString = "399p";
 
 const penceStringWithoutTrailingP = penceString.substring(
   0,
-  penceString.length - 1
+  penceString.length - 1,
 );
 
 const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0");
 const pounds = paddedPenceNumberString.substring(
   0,
-  paddedPenceNumberString.length - 2
+  paddedPenceNumberString.length - 2,
 );
 
 const pence = paddedPenceNumberString
@@ -37,4 +37,3 @@ console.log(`£${pounds}.${pence}`);
 //Then .padEnd(2, "0") checks the string is at least 2 characters long. If it already has 2 characters, like "99", without changing the rest.
 //padEnd(2, "0") adds "0" to the end of the string until it reaches a length of 2.
 //finally line 18 combines pound and pence which is £3.99
-

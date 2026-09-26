@@ -21,5 +21,4 @@ console.log(`The direction of the file is ${dir}`);
 const ext = filePath.slice(filePath.lastIndexOf(".") + 1);
 console.log(`The extenction of the file is ${ext}`);
 
-
 // https://www.google.com/search?q=slice+mdn

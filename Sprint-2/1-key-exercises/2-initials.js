@@ -11,5 +11,4 @@ let initials =
 
 console.log(initials);
 
-
 // https://www.google.com/search?q=get+first+character+of+string+mdn

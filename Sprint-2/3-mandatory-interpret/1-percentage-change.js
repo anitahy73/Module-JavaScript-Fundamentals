@@ -2,7 +2,7 @@ let carPrice = "10,000";
 let priceAfterOneYear = "8,543";
 
 carPrice = Number(carPrice.replaceAll(",", ""));
-priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ,""));
+priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",", ""));
 
 const priceDifference = carPrice - priceAfterOneYear;
 const percentageChange = (priceDifference / carPrice) * 100;
@@ -17,7 +17,7 @@ console.log(`The percentage change is ${percentageChange}`);
 //Line 4 and 5
 //Number(...)
 //Line 4 and 5
-//console.log() 
+//console.log()
 //Line 10 ,
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
@@ -26,7 +26,6 @@ console.log(`The percentage change is ${percentageChange}`);
 // c) Identify all the lines that are variable reassignment statements
 //carPrice = Number(carPrice.replaceAll(",", ""));
 //priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",", ""));
-
 
 // d) Identify all the lines that are variable declarations
 //let carPrice
